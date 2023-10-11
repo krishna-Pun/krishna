@@ -5,8 +5,7 @@ import { useEffect } from "react";
 
 function App() {
   const [message, setMessage] = useState("");
-  const [messageDb, setMessag
-    eDb] = useState([]);
+  const [messageDb, setMessageDb] = useState([]);
 
   const socket = io("http://localhost:8000");
 
